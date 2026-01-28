@@ -69,7 +69,7 @@ These variables can be placed in the starter workflow and will be substituted as
 * `$protected-branches`: will substitute any protected branches from the repository
 * `$cron-daily`: will substitute a valid but random time within the day
 
-## How to test templates before publishing
+
 
 ### Disable template for public
 The template author adds a `labels` array in the template's `properties.json` file with a label `preview`. This will hide the template from users, unless user uses query parameter `preview=true` in the URL.
